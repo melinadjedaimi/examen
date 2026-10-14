@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="WebCraft Solutions - Portfolio de projets clients et catalogue de formations techniques" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="WebCraft Solutions - Portfolio de projets clients et catalogue de formations techniques">
   <title>WebCraft Solutions - Accueil</title>
 
- 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -23,7 +22,6 @@
         <span class="brand-name">WebCraft <span class="brand-accent">Solutions</span></span>
       </a>
 
-      
       <button class="navbar-toggler" type="button"
         data-bs-toggle="collapse" data-bs-target="#navbarMain"
         aria-controls="navbarMain" aria-expanded="false"
@@ -31,7 +29,6 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      
       <div class="collapse navbar-collapse" id="navbarMain">
         <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
           <li class="nav-item">
@@ -71,8 +68,8 @@
       <div class="row align-items-center">
         <div class="col-lg-7 hero-content">
           <h1 class="hero-title">
-            Nous créons des<br />
-            <span class="hero-highlight">solutions web</span><br />
+            Nous créons des<br>
+            <span class="hero-highlight">solutions web</span><br>
             qui font la différence
           </h1>
           <p class="hero-subtitle">
@@ -87,7 +84,8 @@
               <i class="bi bi-mortarboard me-2" aria-hidden="true"></i>Nos formations
             </a>
           </div>
-          
+        </div>
+
         <div class="col-lg-5 d-none d-lg-flex justify-content-center hero-visual" aria-hidden="true">
           <div class="hero-card-stack">
             <div class="floating-card card-1">
@@ -111,6 +109,7 @@
     </div>
   </section>
 
+  
   <section id="projets" class="section-projects py-5" aria-labelledby="projets-titre">
     <div class="container">
       <div class="section-header text-center mb-5">
@@ -119,7 +118,6 @@
         <p class="section-subtitle">Découvrez nos réalisations pour des clients variés, du e-commerce aux dashboards analytiques.</p>
       </div>
 
-      
       <div class="filters-container mb-4" role="search" aria-label="Filtres et recherche de projets">
         <div class="row g-3 align-items-end">
           <div class="col-md-4">
@@ -127,7 +125,7 @@
               <i class="bi bi-search me-1" aria-hidden="true"></i>Rechercher
             </label>
             <input type="search" class="form-control filter-input" id="project-search"
-              placeholder="Titre, client, technologie…" aria-label="Rechercher un projet" />
+              placeholder="Titre, client, technologie…" aria-label="Rechercher un projet">
           </div>
           <div class="col-md-4">
             <label for="project-category" class="form-label fw-semibold">
@@ -172,10 +170,8 @@
         </button>
       </div>
 
-      <!-- Grille de projets -->
       <div class="row g-4" id="projects-grid" aria-live="polite"></div>
 
-      <!-- Aucun résultat projets -->
       <div id="projects-empty" class="empty-state d-none" role="status">
         <i class="bi bi-search empty-icon" aria-hidden="true"></i>
         <h3>Aucun projet trouvé</h3>
@@ -184,17 +180,15 @@
     </div>
   </section>
 
-
+  
   <section id="formations" class="section-courses py-5" aria-labelledby="formations-titre">
     <div class="container">
-      <!-- En-tête de section -->
       <div class="section-header text-center mb-5">
         <span class="section-label">Notre catalogue</span>
         <h2 class="section-title" id="formations-titre">Formations techniques</h2>
         <p class="section-subtitle">Montez en compétences avec nos formations expertises. Du débutant à l'expert, il y en a pour tous les niveaux.</p>
       </div>
 
-      <!-- Filtres formations -->
       <div class="filters-container mb-4" role="search" aria-label="Filtres et recherche de formations">
         <div class="row g-3 align-items-end">
           <div class="col-md-3">
@@ -202,7 +196,7 @@
               <i class="bi bi-search me-1" aria-hidden="true"></i>Rechercher
             </label>
             <input type="search" class="form-control filter-input" id="course-search"
-              placeholder="Titre, formateur…" aria-label="Rechercher une formation" />
+              placeholder="Titre, formateur…" aria-label="Rechercher une formation">
           </div>
           <div class="col-md-3">
             <label for="course-category" class="form-label fw-semibold">
@@ -275,8 +269,7 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
             aria-label="Fermer la modal"></button>
         </div>
-        <div class="modal-body" id="projectModalBody">
-        </div>
+        <div class="modal-body" id="projectModalBody"></div>
         <div class="modal-footer">
           <button type="button" class="custom-btn custom-btn-outline-sm" data-bs-dismiss="modal">
             <i class="bi bi-x-lg me-1" aria-hidden="true"></i>Fermer
@@ -299,8 +292,7 @@
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
             aria-label="Fermer la modal"></button>
         </div>
-        <div class="modal-body" id="courseModalBody">
-        </div>
+        <div class="modal-body" id="courseModalBody"></div>
         <div class="modal-footer">
           <button type="button" class="custom-btn custom-btn-outline-sm" data-bs-dismiss="modal">
             <i class="bi bi-x-lg me-1" aria-hidden="true"></i>Fermer
@@ -314,7 +306,7 @@
   </div>
 
   
-  <footer class="site-footer" role="contentinfo">
+  <footer class="site-footer">
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6">
@@ -327,7 +319,6 @@
           <p class="footer-desc">
             Agence digitale spécialisée dans le développement web sur-mesure et les formations techniques de haut niveau.
           </p>
-          
         </div>
 
         <div class="col-lg-2 col-md-6 col-sm-6">
@@ -339,7 +330,6 @@
             <li><a href="inscription.html"><i class="bi bi-chevron-right" aria-hidden="true"></i>Inscription</a></li>
           </ul>
         </div>
-
 
         <div class="col-lg-3 col-md-6">
           <h3 class="footer-heading">Contact</h3>
@@ -360,10 +350,10 @@
         </div>
       </div>
 
-      <hr class="footer-divider" />
+      <hr class="footer-divider">
 
       <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-2">
-        <p class="mb-0">&copy; 2024 WebCraft Solutions. Tous droits réservés.</p>
+        <p class="mb-0">&copy; 2026 WebCraft Solutions. Tous droits réservés.</p>
         <p class="mb-0">
           <a href="#">Mentions légales</a> &middot;
           <a href="#">Politique de confidentialité</a>
